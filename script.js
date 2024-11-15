@@ -7,5 +7,5 @@ function percentual() {
     const p = (valor2 - valor1 ) / valor1*100;
 
     // Exibe o resultado
-    document.getElementById('resultado').textContent = `Percentual é: ${p.toFixed(2)}`;
+    document.getElementById('resultado').textContent = `Percentual é: ${p.toFixed(2)} %`;
 }
